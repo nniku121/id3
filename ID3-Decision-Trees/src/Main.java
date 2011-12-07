@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
 	public static ClassLoader loader =  Main.class.getClassLoader();
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
 	public static void main(String[] args) {
